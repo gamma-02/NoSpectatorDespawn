@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "gamma02.nospectatordespawn.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "server": [
+    "NoDespawnMixin"
+  ],
+
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

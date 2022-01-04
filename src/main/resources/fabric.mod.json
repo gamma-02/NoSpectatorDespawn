@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "nospectatorsespawn",
+  "version": "${version}",
+  "name": "NoSpectatorDespawn",
+  "description": "",
+  "authors": [
+    "gamma_02"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/noSpectatorDespawn/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "gamma02.nospectatordespawn.NoSpectatorDespawn"
+    ]
+  },
+  "mixins": [
+    "noSpectatorDespawn.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.12",
+    "fabric": "*",
+    "minecraft": "1.18.1"
+  }
+}
